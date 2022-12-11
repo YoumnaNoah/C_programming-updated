@@ -302,7 +302,7 @@ void withdraw(void){
 	u32 withdrawn_amount;
 	
 	printf("Enter the ammount of money you want to withdraw\n"); 
-		scanf("%d\n",&withdrawn_amount); //scan the ammount of withdrawl
+		scanf("%d",&withdrawn_amount); //scan the ammount of withdrawl
 		fflush(stdin);
 		if(withdrawn_amount<tot_clients[num].Balance)//check the balance
 		{ 
